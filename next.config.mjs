@@ -1,12 +1,15 @@
 
-  @ts-check;
+// @ts-check
  
- @type {import('next').NextConfig};
- 
-const nextConfig = {
-  eslint: {
+export default (phase, { defaultConfig }) => {
+  
+    @type {import('next').NextConfig};
+   
+  const nextConfig = {
+    eslint: {
         ignoreDuringBuilds: true,
-    }, /* config options here */
+    },  /* config options here */
+  }
+  return nextConfig;
 }
- 
-export default nextConfig;
+
