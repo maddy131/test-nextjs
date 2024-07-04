@@ -1,3 +1,4 @@
+export default (phase, { defaultConfig }) => {
  @type {import('next').NextConfig} 
 
 const nextConfig = {
@@ -7,3 +8,4 @@ const nextConfig = {
 };
 
 module.export = nextConfig;
+}
