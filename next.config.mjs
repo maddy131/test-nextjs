@@ -7,3 +7,8 @@ export default {
     DATABASE_URL: process.env.DATABASE_URL,
   },
 };
+const nextConfig = {
+    reactStrictMode : false
+};
+
+export default nextConfig;
