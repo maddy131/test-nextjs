@@ -1,14 +1,12 @@
+
 // next.config.mjs
 
 import 'dotenv/config';
 
-export default {
+const nextConfig = {
   env: {
     DATABASE_URL: process.env.DATABASE_URL,
   },
-};
-const nextConfig = {
-    reactStrictMode : false
 };
 
 export default nextConfig;
