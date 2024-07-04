@@ -1,12 +1,12 @@
 
- module.exports = async (phase, { defaultConfig }) => {
-  
-  @type {import('next').NextConfig} 
-
+  @ts-check;
+ 
+ @type {import('next').NextConfig};
+ 
 const nextConfig = {
-        eslint: {
+  eslint: {
         ignoreDuringBuilds: true,
-    },
-};
-return nextConfig;
+    }, /* config options here */
 }
+ 
+export default nextConfig;
