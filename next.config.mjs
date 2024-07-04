@@ -1,5 +1,5 @@
 
-// @ts-check
+ @ts-check;
  
 export default (phase, { defaultConfig }) => {
   
@@ -9,7 +9,7 @@ export default (phase, { defaultConfig }) => {
     eslint: {
         ignoreDuringBuilds: true,
     },  /* config options here */
-  }
+  };
   return nextConfig;
 }
 
